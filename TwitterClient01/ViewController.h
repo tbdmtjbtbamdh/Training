@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
+#import <Accounts/Accounts.h>
+#import "TimeLineTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIActionSheetDelegate>
 
 @end

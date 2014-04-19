@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E27623C19021D7800AE5DFC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27623B19021D7800AE5DFC /* DetailViewController.m */; };
+		5E27623F1902478400AE5DFC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27623E1902478400AE5DFC /* WebViewController.m */; };
+		5E27624219024C8A00AE5DFC /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27624119024C8A00AE5DFC /* MyUIApplication.m */; };
 		5E32B52818F8F61700AEDB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E32B52718F8F61700AEDB94 /* Foundation.framework */; };
 		5E32B52A18F8F61700AEDB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E32B52918F8F61700AEDB94 /* CoreGraphics.framework */; };
 		5E32B52C18F8F61700AEDB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E32B52B18F8F61700AEDB94 /* UIKit.framework */; };
@@ -14,7 +17,6 @@
 		5E32B53418F8F61700AEDB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E32B53318F8F61700AEDB94 /* main.m */; };
 		5E32B53818F8F61700AEDB94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E32B53718F8F61700AEDB94 /* AppDelegate.m */; };
 		5E32B53B18F8F61700AEDB94 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E32B53918F8F61700AEDB94 /* Main_iPhone.storyboard */; };
-		5E32B53E18F8F61700AEDB94 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E32B53C18F8F61700AEDB94 /* Main_iPad.storyboard */; };
 		5E32B54118F8F61800AEDB94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E32B54018F8F61800AEDB94 /* ViewController.m */; };
 		5E32B54318F8F61800AEDB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E32B54218F8F61800AEDB94 /* Images.xcassets */; };
 		5E32B54A18F8F61800AEDB94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E32B54918F8F61800AEDB94 /* XCTest.framework */; };
@@ -22,6 +24,8 @@
 		5E32B54C18F8F61800AEDB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E32B52B18F8F61700AEDB94 /* UIKit.framework */; };
 		5E32B55418F8F61800AEDB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E32B55218F8F61800AEDB94 /* InfoPlist.strings */; };
 		5E32B55618F8F61800AEDB94 /* TwitterClient01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E32B55518F8F61800AEDB94 /* TwitterClient01Tests.m */; };
+		5E32B56118F912EA00AEDB94 /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E32B56018F912EA00AEDB94 /* TimeLineTableViewController.m */; };
+		5E32B56418F91A8A00AEDB94 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E32B56318F91A8A00AEDB94 /* TimeLineCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E27623A19021D7800AE5DFC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		5E27623B19021D7800AE5DFC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		5E27623D1902478400AE5DFC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		5E27623E1902478400AE5DFC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
+		5E27624019024C8A00AE5DFC /* MyUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUIApplication.h; path = ../MyUIApplication.h; sourceTree = "<group>"; };
+		5E27624119024C8A00AE5DFC /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUIApplication.m; path = ../MyUIApplication.m; sourceTree = "<group>"; };
 		5E32B52418F8F61700AEDB94 /* TwitterClient01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClient01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32B52718F8F61700AEDB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E32B52918F8F61700AEDB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +56,6 @@
 		5E32B53618F8F61700AEDB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E32B53718F8F61700AEDB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5E32B53A18F8F61700AEDB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5E32B53D18F8F61700AEDB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5E32B53F18F8F61800AEDB94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E32B54018F8F61800AEDB94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E32B54218F8F61800AEDB94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +64,10 @@
 		5E32B55118F8F61800AEDB94 /* TwitterClient01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterClient01Tests-Info.plist"; sourceTree = "<group>"; };
 		5E32B55318F8F61800AEDB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E32B55518F8F61800AEDB94 /* TwitterClient01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterClient01Tests.m; sourceTree = "<group>"; };
+		5E32B55F18F912EA00AEDB94 /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		5E32B56018F912EA00AEDB94 /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		5E32B56218F91A8A00AEDB94 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		5E32B56318F91A8A00AEDB94 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +130,20 @@
 				5E32B53618F8F61700AEDB94 /* AppDelegate.h */,
 				5E32B53718F8F61700AEDB94 /* AppDelegate.m */,
 				5E32B53918F8F61700AEDB94 /* Main_iPhone.storyboard */,
-				5E32B53C18F8F61700AEDB94 /* Main_iPad.storyboard */,
 				5E32B53F18F8F61800AEDB94 /* ViewController.h */,
 				5E32B54018F8F61800AEDB94 /* ViewController.m */,
+				5E27623A19021D7800AE5DFC /* DetailViewController.h */,
+				5E27623B19021D7800AE5DFC /* DetailViewController.m */,
+				5E27623D1902478400AE5DFC /* WebViewController.h */,
+				5E27623E1902478400AE5DFC /* WebViewController.m */,
+				5E27624019024C8A00AE5DFC /* MyUIApplication.h */,
+				5E27624119024C8A00AE5DFC /* MyUIApplication.m */,
 				5E32B54218F8F61800AEDB94 /* Images.xcassets */,
 				5E32B52E18F8F61700AEDB94 /* Supporting Files */,
+				5E32B55F18F912EA00AEDB94 /* TimeLineTableViewController.h */,
+				5E32B56018F912EA00AEDB94 /* TimeLineTableViewController.m */,
+				5E32B56218F91A8A00AEDB94 /* TimeLineCell.h */,
+				5E32B56318F91A8A00AEDB94 /* TimeLineCell.m */,
 			);
 			path = TwitterClient01;
 			sourceTree = "<group>";
@@ -231,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E32B53E18F8F61700AEDB94 /* Main_iPad.storyboard in Resources */,
 				5E32B54318F8F61800AEDB94 /* Images.xcassets in Resources */,
 				5E32B53B18F8F61700AEDB94 /* Main_iPhone.storyboard in Resources */,
 				5E32B53218F8F61700AEDB94 /* InfoPlist.strings in Resources */,
@@ -253,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E32B56418F91A8A00AEDB94 /* TimeLineCell.m in Sources */,
+				5E27623F1902478400AE5DFC /* WebViewController.m in Sources */,
 				5E32B54118F8F61800AEDB94 /* ViewController.m in Sources */,
 				5E32B53818F8F61700AEDB94 /* AppDelegate.m in Sources */,
+				5E27624219024C8A00AE5DFC /* MyUIApplication.m in Sources */,
+				5E32B56118F912EA00AEDB94 /* TimeLineTableViewController.m in Sources */,
 				5E32B53418F8F61700AEDB94 /* main.m in Sources */,
+				5E27623C19021D7800AE5DFC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +318,6 @@
 				5E32B53A18F8F61700AEDB94 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5E32B53C18F8F61700AEDB94 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E32B53D18F8F61700AEDB94 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		5E32B55218F8F61800AEDB94 /* InfoPlist.strings */ = {
@@ -470,6 +488,7 @@
 				5E32B55B18F8F61800AEDB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E32B55C18F8F61800AEDB94 /* Build configuration list for PBXNativeTarget "TwitterClient01Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +497,7 @@
 				5E32B55E18F8F61800AEDB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
